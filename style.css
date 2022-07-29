@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+}
+
+.icons {
+  height: 30px;
+}
+
+body {
+  height: 100vh;
+  background: url(./assets/retro-living-room-interior-design.jpg);
+  color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+
+/* //////////////////////////// */
+/* navbar section */
+/* //////////////////////////// */
+
+.navbar {
+  height: 15vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px;
+}
+
+.nav-menu {
+  display: flex;
+  border-bottom: 2px solid #fff;
+}
+
+.nav-list {
+  list-style: none;
+  width: max-content;
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  margin-right: 25px;
+}
+
+.list-item {
+  margin: 0 80px;
+}
+
+.nav-info {
+  width: 170px;
+  margin-left: 24px;
+  position: relative;
+}
+
+.nav-info img {
+  margin-left: -35px;
+}
+
+.nav-info span {
+  position: absolute;
+  top: -10px;
+  margin-left: 10px;
+}
+
+/* //////////////////////////// */
+/* hero section */
+/* //////////////////////////// */
+
+.hero-container {
+  height: 85vh;
+}
+
+.hero {
+  padding: 70px;
+  height: 85vh;
+  display: flex;
+}
+
+.left-section {
+  width: 50vw;
+  margin-top: 80px;
+}
+
+.left-section > h1 {
+  font-size: 66px;
+  font-weight: 600;
+}
+
+.left-section > .hero-button {
+  font-size: 22px;
+  width: 250px;
+  padding: 10px 15px;
+  margin-top: 40px;
+  background: transparent;
+  color: #fff;
+  text-transform: uppercase;
+  border: 2px solid #fff;
+  border-radius: 35px;
+}
+
+/* ////////////////////////// */
+/* hero right section */
+/* ////////////////////////// */
+
+.right-section {
+  position: relative;
+  width: 50vw;
+}
+
+.topRight-container {
+  width: 300px;
+  height: 150px;
+  background: rgb(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 25px;
+  position: absolute;
+  top: 40px;
+  left: 180px;
+}
+
+.topRight-container span {
+  margin-top: 12px;
+}
+
+.bottomRight-container {
+  width: 300px;
+  height: 150px;
+  background: rgb(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 25px;
+  position: absolute;
+  bottom: 170px;
+  left: -70px;
+}
+
+.topRight-line {
+  height: 70px;
+  width: 0;
+  border: 1px solid #fff;
+  position: absolute;
+  left: 400px;
+  top: 190px;
+}
+
+.topRight-circle {
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  border: none;
+  border: 7px solid #fff;
+  background-color: #fff;
+  position: absolute;
+  left: 395px;
+  top: 260px;
+}
+
+.topLeft-line {
+  height: 0;
+  width: 70px;
+  border: 1px solid #fff;
+  position: absolute;
+  left: 230px;
+  bottom: 250px;
+}
+
+.topLeft-circle {
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  border: none;
+  border: 7px solid #fff;
+  background-color: #fff;
+  position: absolute;
+  left: 300px;
+  bottom: 245px;
+}
